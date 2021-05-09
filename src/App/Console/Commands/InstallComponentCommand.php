@@ -39,6 +39,11 @@ class InstallComponentCommand extends Command
     public function handle()
     {
         Artisan::call('vendor:publish --tag=initComponent');
-        return 0;
+        file_put_contents(
+            base_path('routes/web.php'),
+            file_get_contents(__DIR__.'/Auth/stubs/routes.stub'),
+            FILE_APPEND
+        );
+        return true;
     }
 }
