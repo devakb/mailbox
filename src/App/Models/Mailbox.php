@@ -2,9 +2,7 @@
 
 namespace App\Models;
 
-use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
-use Devakb\Mailbox\App\Models\MailboxReply;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Mailbox extends Model
