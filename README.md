@@ -19,8 +19,9 @@ composer require devakb/mailbox
 ### Publish package assets
 
 ```bash
-php artisan vendor:publish --provider="devakb\Mailbox\ServiceProvider"
+php artisan mailbox:install
 ```
+
 
 ## Usage
 
@@ -28,7 +29,7 @@ CHANGE ME
 
 ## Security
 
-If you discover any security related issues, please email 
+If you discover any security related issues, please email
 instead of using the issue tracker.
 
 ## Credits
