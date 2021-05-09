@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Mailbox;
 
 use App\Models\User;
-use Devakb\Mailbox\App\Models\Mailbox;
-use Devakb\Mailbox\App\Models\MailboxReply;
+use App\Models\Mailbox;
+use App\Models\MailboxReply;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
