@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "devakb\\Mailbox\\ServiceProvider"
+        "Devakb\\Mailbox\\ServiceProvider"
       ]
     }
   },
