@@ -37,5 +37,4 @@ instead of using the issue tracker.
 - Amit Kumar Biswas
 - amitkumarbiswas2001@gmail.com
 
-This package is bootstrapped with the help of
-[melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator).
+
